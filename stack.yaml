@@ -1,0 +1,16 @@
+resolver: lts-11.0
+packages:
+  - .
+extra-deps:
+# pinned versions of tools
+  - ghcid-0.7
+  - hlint-2.1.3
+  - hoogle-5.0.17.3
+  - weeder-1.0.3
+  - hindent-5.2.5
+  - stylish-haskell-0.9.0.2
+  - hasktags-0.69.5
+# deps of deps
+  - haskell-src-exts-1.20.2
+  - http-conduit-2.3.1
+  - extra-1.6.6

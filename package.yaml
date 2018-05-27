@@ -1,0 +1,4 @@
+executable:
+  main: Main.hs
+dependencies:
+  - base
